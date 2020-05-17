@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="Jaskaran Johal and Moniyat Chowdhury" name="author">
+    <meta
+        content="The 7Lenora Release Calender"
+        name="description">
+    <title>Release Calender</title>
+    <!--Collapsible sidebar using bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href="LINK" rel="stylesheet"> -->
+</head>
+<body>
+    <div class = "content">
+        <div class = "navbar">
+            <ul class ="navbar-links">
+                <li class="articles-pg">
+                    <a href="#">Articles</a></li>
+                <li class="releases-pg">
+                    <a href="#">Releases</a></li>
+                <li class="lab-pg">
+                    <a href="#">Lab</a></li>
+                <li class="vid-pg">
+                    <a href="#">Videos</a></li>
+                <li class="about-pg">
+                    <a href="#">About</a></li>
+                <li class="shop-pg">
+                    <a href="#">Shop</a>
+                </li>
+            </ul>
+            <button class="search"><i class="fa fa-search fa-flip-horizontal" style="color:rgb(255, 255, 255);" aria-label="search"></i></button>
+            <button class="cart"><i class="fas fa-shopping-cart" style="color:rgb(255, 255, 255);" aria-label="shopping-cart"></i></button>
+        </div>
+    </div>
+</body>
