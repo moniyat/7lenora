@@ -31,6 +31,9 @@
 .limited{
     margin-bottom: 100px;
 }
+.gen{
+  margin-left: 250px;
+}
 .title{
     text-align: center;
 }
@@ -65,7 +68,7 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: black;
 }
 
 a, a:hover, a:focus {
@@ -76,8 +79,7 @@ a, a:hover, a:focus {
 
 #sidebar {
     /* don't forget to add all the previously mentioned styles here too */
-    background: #7386D5;
-    color: #fff;
+    color: black;
     transition: all 0.3s;
 }
 
@@ -93,11 +95,10 @@ a, a:hover, a:focus {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid black;
 }
 
 #sidebar ul p {
-    color: #fff;
     padding: 10px;
 }
 
@@ -107,18 +108,15 @@ a, a:hover, a:focus {
     display: block;
 }
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+    color: black;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
+    color: black;
 }
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
 }
 .wrapper {
     display: flex;
