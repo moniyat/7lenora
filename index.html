@@ -13,9 +13,69 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!--Font JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+     <!-- jQuery CDN - Slim version (=without AJAX) -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <!-- Popper.JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+     <!-- Bootstrap JS -->
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+    <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+    
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    <span></span>
+                </button>
+    
+            </div>
+        </nav>
+    </div>
+    
+    <!--Search-Filter For Search Bar 
+    <div class="container">
+        <div class="row searchFilter" >
+           <div class="col-sm-12" >
+            <div class="input-group" >
+             <input id="table_filter" type="text" class="form-control" aria-label="Text input with segmented button dropdown" >
+             <div class="input-group-btn" >
+              <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><span class="label-icon" >Category</span> <span class="caret" >&nbsp;</span></button>
+              <div class="dropdown-menu dropdown-menu-right" >
+                 <ul class="category_filters" >
+                  <li >
+                   <input class="cat_type category-input" data-label="All" id="all" value="" name="radios" type="radio" ><label for="all" >All</label>
+                  </li>
+                  <li >
+                   <input type="Shoe" name="Shoes" id="Design" value="Design" ><label class="category-label" for="Design" >Design</label>
+                  </li>
+                  <li >
+                   <input type="Shoe" name="Shoes" id="Marketing" value="Marketing" ><label class="category-label" for="Marketing" >Marketing</label>
+                  </li>
+                  <li >
+                   <input type="Shoe" name="Shoes" id="Programming" value="Programming" ><label class="category-label" for="Programming" >Programming</label>
+                  </li>
+                  <li >
+                   <input type="Shoe" name="Shoes" id="Sales" value="Sales" ><label class="category-label" for="Sales" >Sales</label>
+                  </li>
+                  <li >
+                   <input type="Shoe" name="Shoes" id="Support" value="Support" ><label class="category-label" for="Support" >Support</label>
+                  </li>
+                 </ul>
+              </div>
+              <button id="searchBtn" type="button" class="btn btn-secondary btn-search" ><span class="glyphicon glyphicon-search" >&nbsp;</span> <span class="label-icon" >Search</span></button>
+             </div>
+            </div>
+           </div>
+        </div>
+      </div>
+    -->
     <div class = "content">
         <div class="nav-container">
             <div class = "navbar">
@@ -41,6 +101,76 @@
         <div class="stomach">
             <div class="limited">
                 <div class="title">Limited Releases </div>
+
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3 class="homepage"><a href="#">7Lenora</a></h3>
+            </div>
+    
+            <ul class="list-unstyled components">
+                <p>Filter By</p>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Color</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">White</a>
+                        </li>
+                        <li>
+                            <a href="#">Blue</a>
+                        </li>
+                        <li>
+                            <a href="#">Black</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Size</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#priceSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Price</a>
+                    <ul class="collapse list-unstyled" id="priceSubmenu">
+                        <li>
+                            <a href="#">$0 - $50</a>
+                        </li>
+                        <li>
+                            <a href="#">$50 - $100</a>
+                        </li>
+                        <li>
+                            <a href="#">$100 + </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#productTypeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Product Type</a>
+                    <ul class="collapse list-unstyled" id="productTypeSubmenu">
+                        <li>
+                            <a href="#">Shoes</a>
+                        </li>
+                        <li>
+                            <a href="#">Apparell</a>
+                        </li>
+                        <li>
+                            <a href="#">Accessories</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+        </nav>
+    
+    </div>
                 <div class="month">May</div>
                 <div class = "filter"></div>
                     <div class = "cards">
