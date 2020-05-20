@@ -19,6 +19,7 @@
 }
 .articles-pg, .releases-pg, .lab-pg, .vid-pg, .about-pg, .shop-pg{
     margin-right: 30px;
+}
 .stomach{
     display: flex;
     flex-direction: column;
@@ -45,4 +46,8 @@
 }
 .card1, .card2{
     margin-right: 200px;
+}
+.product{
+    height: 100px;
+    width: 150px;
 }
