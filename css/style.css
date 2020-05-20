@@ -82,7 +82,7 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background:
+    background: none;
 }
 .homepage{
     padding-top: 30px;
