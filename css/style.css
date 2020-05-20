@@ -9,19 +9,32 @@
     background-color: black;
     height: 40px;
     margin-bottom: 30px;
+    display: flex;
 }
 .navbar{
     display: flex;
     height: 40px;
     width: 1300px;
+    padding: 0px;
 }
 .navbar-links{
     display: flex;
     list-style-type: none;
-    margin-left: 240px;
+    margin-left: 450px;
+    margin-top: 10px;
+    color: white;
+    width: 900px;
+}
+.search{
+  margin-left: 30px;
+}
+.cart, .search{
+  background-color: black;
+  border: none;
+  margin-left: 20px;
 }
 .articles-pg, .releases-pg, .lab-pg, .vid-pg, .about-pg, .shop-pg{
-    margin-right: 30px;
+    margin-right: 70px;
 }
 .stomach{
     display: flex;
