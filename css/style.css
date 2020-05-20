@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
 }
+.wrapper{
+  display: flex;
+}
 .nav-container{
     background-color: black;
     height: 40px;
@@ -32,17 +35,15 @@
     text-align: center;
 }
 .month{
-    margin-left: 200px;
+    margin-left: 350px;
 }
 .cards{
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
 }
 .three-cards{
     display: flex;
-}
-.card1{
-    margin-left: 200px;
 }
 .card1, .card2{
     margin-right: 200px;
