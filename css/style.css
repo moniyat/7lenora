@@ -1,0 +1,36 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.navbar-links{
+    display: flex;
+    list-style-type: none;
+    /* margin-left: 100px; */
+}
+.articles-pg, .releases-pg, .lab-pg, .vid-pg, .about-pg, .shop-pg{
+    margin-right: 20px;
+}
+.stomach{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.limited{
+    margin-bottom: 100px;
+}
+.title{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+.three-cards{
+    display: flex;
+}
+.card1{
+    margin-left: 200px;
+}
+.card1, .card2{
+    margin-right: 200px;
+}
