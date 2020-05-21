@@ -8,7 +8,6 @@
 .nav-container{
     background-color: black;
     height: 40px;
-    margin-bottom: 30px;
     display: flex;
 }
 .navbar{
@@ -28,10 +27,14 @@
 .search{
   margin-left: 30px;
 }
+.cart{
+  margin-left: 20px;
+  margin-right: 60px;
+
+}
 .cart, .search{
   background-color: black;
   border: none;
-  margin-left: 20px;
 }
 .articles-pg, .releases-pg, .lab-pg, .vid-pg, .about-pg, .shop-pg{
     margin-right: 70px;
@@ -41,14 +44,19 @@
     flex-direction: column;
     margin-left: 100px;
 }
-.limited{
-    margin-bottom: 100px;
-}
 .gen{
   margin-left: 250px;
 }
+.title1{
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-left: 150px;
+}
 .title{
     text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .month{
     margin-left: 350px;
@@ -63,10 +71,50 @@
 }
 .card1, .card2{
     margin-right: 200px;
+    margin-bottom: 20px;
 }
-.product{
-    height: 100px;
-    width: 150px;
+.card-container{
+  width: 150px;
+  height: 100px;
+}
+.container{
+  position: relative;
+  width: 150px;
+  height: 100px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .9s ease;
+  background-color: rgb(170, 170, 170);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
