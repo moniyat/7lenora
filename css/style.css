@@ -54,7 +54,8 @@
   margin-left: 150px;
 }
 .title{
-    text-align: center;
+    text-align: 1000px;
+    padding-left: 600px;
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -68,10 +69,14 @@
 }
 .three-cards{
     display: flex;
+    text-align: center;
+    padding-left: 100px;
+    background-color: white;
 }
 .card1, .card2{
     margin-right: 200px;
     margin-bottom: 20px;
+
 }
 .card-container{
   width: 150px;
@@ -97,14 +102,14 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .9s ease;
-  background-color: rgb(170, 170, 170);
+  transition-timing-function: 0.5s ease;
+  backface-visibility: visible;
+  background-color: rgba(22, 22, 22, 0.342);
 }
 
 .container:hover .overlay {
   opacity: 1;
 }
-
 .text {
   color: white;
   font-size: 20px;
@@ -121,7 +126,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    font-weight: bold;
+    background: white;
 }
 
 p {
@@ -156,8 +162,12 @@ a, a:hover, a:focus {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
+.line{
+  border-bottom: 1px solid lightgray;
+}
+
 
 #sidebar ul p {
     padding: 10px;
@@ -170,6 +180,7 @@ a, a:hover, a:focus {
 }
 #sidebar ul li a:hover {
     color: black;
+    text-decoration: dotted;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
