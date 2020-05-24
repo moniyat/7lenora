@@ -50,7 +50,7 @@
   margin-left: 150px;
 }
 .month{
-    margin-left: 350px;
+    margin-left: 450px;
 }
 .cards{
     display: flex;
@@ -61,6 +61,9 @@
     text-align: center;
     background-color: white;
 }
+.prod-name, .card-title {
+  width: 50px;
+}
 .limited{
   display: flex;
   margin-left: 100px;
@@ -69,18 +72,18 @@
   margin-left: 400px;
 }
 .card1, .card2{
-    margin-right: 200px;
-    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-bottom: 30px;
 
 }
 .card-container{
-  width: 150px;
-  height: 100px;
+  width: 250px;
+  height: 200px;
 }
 .container{
   position: relative;
-  width: 150px;
-  height: 100px;
+  width: 250px;
+  height: 200px;
 }
 .image {
   display: block;
