@@ -48,9 +48,11 @@
   padding-top: 70px;
   padding-bottom: 70px;
   margin-left: 150px;
+  font-size: 30px;
 }
 .month{
-    margin-left: 450px;
+    margin-left: 410px;
+    font-size: 24px;
 }
 .cards{
     display: flex;
@@ -69,7 +71,7 @@
   margin-left: 100px;
 }
 .gen{
-  margin-left: 400px;
+  margin-left: 430px;
 }
 .card1, .card2{
     margin-right: 100px;
