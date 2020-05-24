@@ -44,9 +44,6 @@
     flex-direction: column;
     margin-left: 100px;
 }
-.gen{
-  margin-left: 250px;
-}
 .title1{
   text-align: center;
   padding-top: 70px;
@@ -65,13 +62,15 @@
 .cards{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
 }
 .three-cards{
     display: flex;
     text-align: center;
     padding-left: 100px;
     background-color: white;
+}
+.limited{
+  display: flex;
 }
 .card1, .card2{
     margin-right: 200px;
@@ -106,7 +105,9 @@
   backface-visibility: visible;
   background-color: rgba(22, 22, 22, 0.342);
 }
-
+.nav#sidebar{
+  margin-left: 150px;
+}
 .container:hover .overlay {
   opacity: 1;
 }
